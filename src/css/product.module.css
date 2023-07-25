@@ -1,0 +1,133 @@
+/* for product container */
+.product_conatiner
+{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+/* for sortWrapper div */
+.sortWrapper
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin:20px;
+}
+/* for sort button */
+.sortWrapper button
+{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+/* for product */
+.product
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  background-color: #efefef;
+
+    margin-bottom: 22px;
+    height: 15rem;
+    position: relative;
+
+
+}
+/* Image_Title_Rating  div */
+.Image_Title_Rating
+{
+    display: flex;
+    align-items: center;
+    width:54%;
+}
+.Image_Title_Rating img
+{
+    width: 140px;
+    margin-right: 60px;
+    margin-left: 45px;
+}
+.Title_Rating_Price
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:34%;
+}
+/* for title of product */
+.Title{
+    margin-bottom: 12px;
+}
+/* for product price */
+.Price
+{
+    margin-bottom: 65px;
+}
+/* for rating */
+.Rating
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* for section two */
+.section_two
+{
+    width:45%;
+
+}
+/* for description of product */
+.description
+{
+    margin-bottom: 15px;
+}
+/* for description inside anchor tag */
+.description a{
+    text-decoration: none;
+    color: black;
+}
+/* for actionContainer */
+.actionContainer
+{
+    display: flex;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+}
+/*  for action image */
+.actionIcon img
+{
+    cursor: pointer;
+    width: 25px;
+    margin-right: 20px;
+}
+/* for product cateogry */
+.product_category{
+    font-style: italic;
+    margin-bottom: 7px;
+    margin-left: 20%;
+    align-items: center;
+    color: rgb(84, 81, 81);
+}
+/* for text area of the product */
+textarea
+{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: .5px solid grey;
+}
+/* for input of the product */
+input
+{
+    padding: 5px;
+    /* font-size: 10px; */
+}

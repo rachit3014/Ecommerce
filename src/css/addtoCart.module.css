@@ -1,0 +1,76 @@
+/* for cart conatiner */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+/* for cart conatiner div */
+.cart_container
+{
+    width: 90%;
+    min-width: 550px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+/* for cart item div */
+.cartItem
+{
+    display: flex;
+    align-items: center;
+}
+.cartItem>*
+{
+    margin: 20px;
+}
+/* for image of product */
+.productImage
+{
+    max-height: 200px;
+    max-width: 100px;
+}
+/*  for  image inside productImage class*/
+.productImage img
+{
+    height: 100%;
+    width: 100%;
+}
+/* for cart product title */
+.productTitle{
+    color: darkblue;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+/* for product price */
+.productPrice
+{
+
+    font-size: 1.2rem;
+}
+/* for product delete class */
+.productDelete {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    padding-right: 20px;
+    /* font-size: 2rem; */
+}
+/* for productdelete class inside i  */
+.productDelete i {
+    font-size: 1.5em;
+    color: rgb(70, 68, 68);
+    cursor: pointer;
+    /* border: none; */
+    /* background-color: white; */
+}
+/* for total amount class */
+.totalAmount
+{
+    padding: 20px 0px;
+    width: 90%;
+    text-align: right;
+    font-size: 1.5rem;
+}

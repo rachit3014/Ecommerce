@@ -1,0 +1,65 @@
+/* for product container */
+.product_conatiner
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+/* for product_ image div */
+.product_image
+{
+    width: 500px;
+    padding: 0px 20px;
+}
+/* for img inside product_image class */
+.product_image img{
+    width: 100%;
+    /* height: auto; */
+}
+/* for product details */
+.product_details
+{
+    width: 60vw;
+    
+}
+/* for product title */
+.product_title
+{
+    font-size: 2rem;
+    margin-top: 12px;
+}
+/* for ratings */
+.ratings
+{
+    display: flex;
+}
+/* for rate and rate count */
+.rate,
+.rating_count{
+    margin: 0px;
+    padding-right: 35px;
+}
+/* for product price */
+.price
+{
+    margin: 12px 1px;
+    font-size: 2rem;
+}
+/* for description of product */
+.description
+{
+    font-size: 1.8rem;
+    color:rgba(8, 104, 58, 0.755)
+}
+/* for add to cart button */
+.addtocart
+{
+    background-color: yellow;
+    color: black;
+    font-size: 1.5rem;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px;
+}
