@@ -11,7 +11,7 @@ import { ToastContainer } from "react-toastify";
 function App() {
   // creating routes
   const router= createBrowserRouter([
-    {path:"/",element:<Navbar/>,
+    {path:"Ecommerce",element:<Navbar/>,
     errorElement:<Error404/>,
 
     children:[

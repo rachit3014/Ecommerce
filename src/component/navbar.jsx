@@ -13,7 +13,7 @@ export default function Navbar()
         <>
             <div className ={styles.navbar}>
                 <div className ={styles.section_one}>
-                    <Link className={styles.navlink} to ="/">
+                    <Link className={styles.navlink} to ="/Ecommerce">
                       <h1 className={styles.logo_name}>E Commerce</h1>
                       </Link>
                        < Link className={styles.navlink} to="addproduct"> Add Product</Link>
