@@ -2,7 +2,6 @@ import styles from"../css/product.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import {productSelector} from"../redux/reducer/productreducer"
 import { useState } from "react";
-import {action} from"../redux/reducer/productreducer";
 import  {toast} from "react-toastify"
 import { updatetheproduct } from "../redux/reducer/productreducer";
 import "react-toastify/dist/ReactToastify.css";

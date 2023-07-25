@@ -20,8 +20,6 @@ function App() {
       {path:"items/:id",element:<ProductPage/>},
       {path:"cart",element:<AddProductToCart/>},
 
-      {path:"updateproduct/:id",element:<UpdateProduct/>}
-
     ]
   }
 
